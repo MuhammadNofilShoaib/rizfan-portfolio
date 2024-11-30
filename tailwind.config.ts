@@ -12,6 +12,10 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        largest: "1800px",
+        grid: "1900px",
+      }
     },
   },
   plugins: [],
