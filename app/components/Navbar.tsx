@@ -23,7 +23,7 @@ function Navbar() {
              </button>
         </div>
         <div className={`${
-          click ? "opacity-100 translate-x-0" : "opacity-0 translate-x-2"
+          click ? "opacity-100" : "opacity-0"
         } duration-200 ease-in-out  flex flex-col justify-center items-center gap-[20px] bg-blue-200/20 absolute z-50 w-full capitalize backdrop-blur-md py-5 px-5 rounded-xl border-b-2 border-black/50 `}>
             <Link className='font-[400] text-[28px] leading-[35.28px] text-black/70 hover:text-black/100 duration-200 ease-in-out' href="/">home</Link>
                 <Link className='font-[400] text-[28px] leading-[35.28px] text-black/70 hover:text-black/100 duration-200 ease-in-out' href="/">about</Link>
