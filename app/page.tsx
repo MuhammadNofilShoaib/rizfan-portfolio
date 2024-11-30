@@ -22,9 +22,9 @@ export default function Home() {
               <p className="font-[700] text-[35px] lg:mx-[40px] md:text-[40px] lg:text-[48px] leading-[60.48px] ">Rizfan Herlaya</p>
               <p className="font-[400] mx-[100px] lg:mx-[30px] text-center lg:text-left text-[18px] px-3 md:text-[20px] leading-[25.2px] text-black/80">Lorem ipsum dolor sit amet consectetur. Vitae maecenas pellentesque tellus tempus purus integer nisi cras fermentum.</p>
               <div className="flex flex-col md:flex-row justify-center items-center gap-5 mt-[50px] lg:mx-[45px]">
-                <button className="flex items-center justify-center gap-[20px] font-[400] text-[20px] leading-[25.2px] text-white bg-[#457B9D] w-[200px] h-[50px] md:w-[274px] lg:w-[200px] lg:h-[50px] md:h-[64px] rounded-[5px] shadow-[0px_4px_4px_#00000040] hover:saturate-200 duration-200 ease-in-out">Download CV <IoCloudDownloadOutline className="size-[30px]" />
+                <button className="flex items-center justify-center gap-[20px] font-[400] text-[20px] leading-[25.2px] text-white bg-[#457B9D] w-[200px] h-[50px] md:w-[274px] md:h-[64px] lg:w-[200px] lg:h-[50px]  xl:w-[274px] xl:h-[64px] rounded-[5px] shadow-[0px_4px_4px_#00000040] hover:saturate-200 duration-200 ease-in-out">Download CV <IoCloudDownloadOutline className="size-[30px]" />
                 </button>
-                <button className="font-[400] text-[20px] leading-[25.2px] text-[#457B9D] bg-[#457B9D]/10 border border-[#457B9D]  w-[200px] h-[50px] md:w-[274px] md:h-[64px] lg:w-[200px] lg:h-[50px] rounded-[5px] shadow-[0px_4px_4px_#00000040] hover:saturate-200 duration-200 ease-in-out">Explore More</button>
+                <button className="font-[400] text-[20px] leading-[25.2px] text-[#457B9D] bg-[#457B9D]/10 border border-[#457B9D]  w-[200px] h-[50px] md:w-[274px] md:h-[64px] lg:w-[200px] lg:h-[50px]  xl:w-[274px] xl:h-[64px] rounded-[5px] shadow-[0px_4px_4px_#00000040] hover:saturate-200 duration-200 ease-in-out">Explore More</button>
               </div>
             </div>
           </div>
